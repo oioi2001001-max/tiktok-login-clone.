@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Login (Clone)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-container {
+      width: 350px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .logo {
+      margin-bottom: 20px;
+    }
+    .logo img {
+      width: 140px; /* Adjust size if needed */
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .btn-google { background: #fff; border: 1px solid #ddd; }
+    .btn-facebook { background: #1877f2; color: #fff; }
+    .btn-apple { background: #000; color: #fff; }
+    .btn-email { background: #f1f1f1; }
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #555;
+    }
+    .footer a {
+      color: #fe2c55;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="TikTok Logo">
+    </div>
+    <button class="btn btn-google">Continue with Google</button>
+    <button class="btn btn-facebook">Continue with Facebook</button>
+    <button class="btn btn-apple">Continue with Apple</button>
+    <button class="btn btn-email">Use phone / email / username</button>
+    <div class="footer">
+      Don't have an account? <a href="#">Sign up</a>
+    </div>
+  </div>
+</body>
+</html>
